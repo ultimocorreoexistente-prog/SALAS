@@ -1,0 +1,19 @@
+{
+  "name": "sistema-reservas-ufro",
+  "version": "1.0.0",
+  "description": "Sistema Inteligente de Reservas UFRO con IA",
+  "main": "app_web_reservas.py",
+  "scripts": {
+    "start": "streamlit run app_web_reservas.py --server.port=$PORT --server.address=0.0.0.0",
+    "dev": "streamlit run app_web_reservas.py"
+  },
+  "keywords": [
+    "streamlit",
+    "python",
+    "reservas",
+    "ufro",
+    "ia"
+  ],
+  "author": "MiniMax Agent",
+  "license": "MIT"
+}
